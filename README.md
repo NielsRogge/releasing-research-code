@@ -1,8 +1,8 @@
 # Tips for Publishing Research Code
 
-<img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/08/Logo_for_Conference_on_Neural_Information_Processing_Systems.svg/1200px-Logo_for_Conference_on_Neural_Information_Processing_Systems.svg.png" width=200>
-
 **💡 Collated best practices from most popular ML research repositories - *now official guidelines at NeurIPS 2021!*** 
+
+This repository is a 2024 update to the awesome original repository by PapersWithCode.
 
 Based on analysis of more than 200 Machine Learning repositories, these recommendations facilitate reproducibility and correlate with GitHub stars - for more details, see our [our blog post](https://medium.com/paperswithcode/ml-code-completeness-checklist-e9127b168501). 
 
@@ -66,28 +66,13 @@ You can further help the user understand and contextualize your results by linki
 
 ## 🎉 Additional awesome resources for releasing research code
 
-### Hosting pretrained models files
+### Hosting artifacts (models, datasets)
 
-1. [Zenodo](https://zenodo.org) - versioning, 50GB, free bandwidth, DOI, provides long-term preservation
-2. [GitHub Releases](https://help.github.com/en/github/administering-a-repository/managing-releases-in-a-repository) - versioning, 2GB file limit, free bandwidth
-3. [OneDrive](https://www.onedrive.com/) - versioning, 2GB (free)/ 1TB (with Office 365), free bandwidth
-4. [Google Drive](https://drive.google.com) - versioning, 15GB, free bandwidth
-5. [Dropbox](https://dropbox.com) - versioning, 2GB (paid unlimited), free bandwidth
-6. [AWS S3](https://aws.amazon.com/s3/) - versioning, paid only, paid bandwidth
-7. [huggingface_hub](https://github.com/huggingface/huggingface_hub) - versioning, no size limitations, free bandwidth
-8. [DAGsHub](https://dagshub.com/) - versioning, no size limitations, free bandwith
-9. [CodaLab Worksheets](https://worksheets.codalab.org/) - 10GB, free bandwith
- 
-### Managing model files
+We recommend the [Huggingface_Hub](https://github.com/huggingface/huggingface_hub) - versioning, no size limitations, free bandwidth.
 
-1. [RClone](https://rclone.org/) - provides unified access to many different cloud storage providers
+We have a dedicated guide for uploading models: https://huggingface.co/docs/hub/models-uploading.
 
-### Standardized model interfaces
-
-1. [PyTorch Hub](https://pytorch.org/hub/)
-2. [Tensorflow Hub](https://www.tensorflow.org/hub)
-3. [Hugging Face NLP models](https://huggingface.co/models)
-4. [ONNX](https://onnx.ai/)
+We have a dedicated guide for uploading datasets: https://huggingface.co/docs/datasets/loading.
 
 ### Results leaderboards
 
@@ -100,15 +85,15 @@ You can further help the user understand and contextualize your results by linki
 
 ### Making project pages
 
-1. [GitHub pages](https://pages.github.com/)
-2. [Fastpages](https://github.com/fastai/fastpages)
+1. [Hugging Face paper pages](hf.co/papers)
+2. [GitHub pages](https://pages.github.com/)
+3. [Fastpages](https://github.com/fastai/fastpages)
 
 ### Making demos, tutorials, executable papers
 
-1. [Google Colab](https://colab.research.google.com/)
-2. [Binder](https://mybinder.org/)
-3. [Streamlit](https://github.com/streamlit/streamlit)
-4. [CodaLab Worksheets](https://worksheets.codalab.org/)
+1. [Gradio]([https://mybinder.org/](https://huggingface.co/docs/hub/en/spaces-sdks-gradio)
+2. [Streamlit](https://github.com/streamlit/streamlit)
+3. [Google Colab](https://colab.research.google.com/)
 
 ## Contributing
 
